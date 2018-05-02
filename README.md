@@ -8,4 +8,4 @@ It was developed for the "No Shit Sherlock Jam".
 
 ![A screenshot of the game](detective_bamboozled_screenshot.png?raw=true "A screenshot of the game")
 
-You can play the game here: https://jaimuepe.itch.io/detective-bamboozled
+You can find more info here: https://jaimuepe.itch.io/detective-bamboozled
