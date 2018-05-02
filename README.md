@@ -4,7 +4,7 @@ When R.Mutt's artwork is stolen from the museum and everyone seems suspicious, s
 
 Help this good boy to solve the mystery while you contain your desire to pet him!
 
-It was developed for the "No Shit Sherlock Jam".
+It was developed for the "**No Shit Sherlock Jam**".
 
 ![A screenshot of the game](detective_bamboozled_screenshot.png?raw=true "A screenshot of the game")
 
