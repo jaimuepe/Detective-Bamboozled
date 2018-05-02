@@ -1,0 +1,55 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_fan_garbage",
+  "nodes": [
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_fan_garbage_not_interested",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "!evt_talked_to-fan_about_obsession",
+            "type": 1
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_fan_garbage_black_market_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_talked_to-fan_about_obsession",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_fan_garbage",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_fan_garbage_not_interested",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_fan_garbage_black_market_2",
+      "emphasis": null,
+      "id": "txt_fan_garbage_black_market_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_fan_garbage_black_market_2",
+      "evtId": "evt_find_info_black_market"
+    }
+  ]
+}

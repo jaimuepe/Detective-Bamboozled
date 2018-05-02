@@ -1,0 +1,12 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_artist_2_door",
+  "nodes": [
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "__exit__",
+      "id": "cus_artist_2_door_outside",
+      "evtId": "evt_artist_2_house_unlocked"
+    }
+  ]
+}

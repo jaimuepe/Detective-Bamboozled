@@ -1,0 +1,14 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_artist_2_painting",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_artist_2_painting_1",
+      "evtId": "evt_interested_about_covered_thing"
+    }
+  ]
+}

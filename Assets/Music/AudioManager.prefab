@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1274466128934770}
+  m_IsPrefabParent: 1
+--- !u!1 &1274466128934770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4677727619820018}
+  - component: {fileID: 114768851435823382}
+  - component: {fileID: 82904239938708074}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4677727619820018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274466128934770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 730.00085, y: 126.84325, z: 28.157837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82904239938708074
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274466128934770}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114768851435823382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274466128934770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe7217cac0e7944192ef9a18029c4b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  officeBGMClip: {fileID: 8300000, guid: c272d3c72171a6e48b6b970e9eb66c55, type: 3}
+  museumBGMClip: {fileID: 8300000, guid: 8c3d93a76d9d90a4ea37ea835599b624, type: 3}
+  guardHouseBGMClip: {fileID: 8300000, guid: c185303bb37e44f4c8e2d2c0dade3f60, type: 3}
+  blackMarketBGMClip: {fileID: 8300000, guid: 3b33cf1fed04bbc499613dc22fc2c198, type: 3}
+  artist1HouseBGMClip: {fileID: 8300000, guid: e00e9f71ec658b34ca866ed8dc552f76, type: 3}
+  artist2HouseBGMClip: {fileID: 8300000, guid: 36f74b99ca54d8e4694ac1e1bc62d2a3, type: 3}
+  suburbsBGMClip: {fileID: 8300000, guid: c44567479ab2a504f9a0ff4556de7791, type: 3}
+  playerBarkSfx: {fileID: 8300000, guid: 874a7b19483f9de4c91f0c17a21e49ae, type: 3}
+  museumOwnerBarkSfx: {fileID: 8300000, guid: 936b0a9efec0b9a4fb6207c3ad1a863e, type: 3}
+  securityGuardBarkSfx: {fileID: 8300000, guid: a3c6d0b98c0de1d4ebaefa55100f5660,
+    type: 3}
+  fanBarkSfx: {fileID: 8300000, guid: 91a61dfc34c70f048a2df84ea09bbf2c, type: 3}
+  artist1BarkSfx: {fileID: 8300000, guid: f40f0182a48f75e49945baa44d986281, type: 3}
+  artist2BarkSfx: {fileID: 8300000, guid: 7c9fe70431377694c8248491e7cbac23, type: 3}
+  thiefCatMeowSfx: {fileID: 8300000, guid: 03c081a79176d444bb6972ea54c2c9bf, type: 3}
+  fatCatMeowSfx: {fileID: 8300000, guid: be74d6e0529f5924197c414c538ab807, type: 3}
+  goodestBoyBarkSfx: {fileID: 8300000, guid: a0138f4748a891c49a858944af5a7ef2, type: 3}

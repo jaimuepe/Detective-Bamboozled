@@ -1,0 +1,87 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_goodest_doggo",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "goodest_doggo",
+      "nextNodeId": "cho_goodest_doggo",
+      "emphasis": null,
+      "id": "txt_goodest_doggo_1",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_goodest_doggo_b",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_artist_1_clue_tobacco_smell",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_goodest_doggo_a",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_goodest_doggo",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_goodest_doggo_a_1",
+      "emphasis": null,
+      "id": "opt_goodest_doggo_a",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "goodest_doggo",
+      "nextNodeId": "opt_goodest_doggo_a_2",
+      "emphasis": null,
+      "id": "opt_goodest_doggo_a_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_goodest_doggo_a_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_goodest_doggo_b_1",
+      "emphasis": null,
+      "id": "opt_goodest_doggo_b",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "goodest_doggo",
+      "nextNodeId": "cus_goodest_doggo_inventory",
+      "emphasis": null,
+      "id": "opt_goodest_doggo_b_1",
+      "evtId": ""
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "ownerId": "",
+      "nextNodeId": "cho_goodest_doggo",
+      "emphasis": null,
+      "id": "cus_goodest_doggo_inventory",
+      "evtId": ""
+    }
+  ]
+}

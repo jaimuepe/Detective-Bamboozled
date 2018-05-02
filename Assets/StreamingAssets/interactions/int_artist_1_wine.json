@@ -1,0 +1,22 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_artist_1_wine",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_artist_1_wine_2",
+      "emphasis": null,
+      "id": "txt_artist_1_wine_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_artist_1_wine_2",
+      "evtId": ""
+    }
+  ]
+}

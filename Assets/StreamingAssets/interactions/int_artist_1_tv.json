@@ -1,0 +1,1 @@
+{"$type":"InteractionData, Assembly-CSharp","id":"int_artist_1_tv","nodes":[{"$type":"TextNode, Assembly-CSharp","ownerId":"player","nextNodeId":"int_artist_1_tv_2","emphasis":null,"id":"int_artist_1_tv_1","evtId":""},{"$type":"TextNode, Assembly-CSharp","ownerId":"player","nextNodeId":"__exit__","emphasis":null,"id":"int_artist_1_tv_2","evtId":""}]}

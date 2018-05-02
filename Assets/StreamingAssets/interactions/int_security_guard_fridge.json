@@ -1,0 +1,14 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_security_guard_fridge",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "int_security_guard_fridge_1",
+      "evtId": ""
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_thief_cat",
+  "nodes": [
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_thief_cat_intro_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_thief_cat",
+            "type": 2
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_thief_cat_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_thief_cat",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_thief_cat",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "txt_thief_cat_intro_2",
+      "emphasis": null,
+      "id": "txt_thief_cat_intro_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_thief_cat_intro_3",
+      "emphasis": null,
+      "id": "txt_thief_cat_intro_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "txt_thief_cat_intro_4",
+      "emphasis": null,
+      "id": "txt_thief_cat_intro_3",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_thief_cat_intro_5",
+      "emphasis": null,
+      "id": "txt_thief_cat_intro_4",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_thief_cat_intro_5",
+      "evtId": "evt_met_thief_cat"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "cho_thief_cat",
+      "emphasis": null,
+      "id": "txt_thief_cat_1",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_thief_cat_c",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_thief_cat_d",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_thief_cat_heard_about_him",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_thief_cat_e",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_blood_found",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_thief_cat_f",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_thief_cat_h",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_talked_about_seller",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_thief_cat_g",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_thief_cat",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_thief_cat_c_1",
+      "emphasis": null,
+      "id": "opt_thief_cat_c",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_thief_cat_d_1",
+      "emphasis": null,
+      "id": "opt_thief_cat_d",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_thief_cat_e_1",
+      "emphasis": null,
+      "id": "opt_thief_cat_e",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_thief_cat_f_1",
+      "emphasis": null,
+      "id": "opt_thief_cat_f",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_thief_cat_g",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "cho_thief_cat",
+      "emphasis": null,
+      "id": "opt_thief_cat_c_1",
+      "evtId": "evt_thief_cat_heard_about_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_thief_cat_d_2",
+      "emphasis": null,
+      "id": "opt_thief_cat_d_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "cho_thief_cat",
+      "emphasis": null,
+      "id": "opt_thief_cat_d_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "cho_thief_cat",
+      "emphasis": null,
+      "id": "opt_thief_cat_e_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "cho_thief_cat",
+      "emphasis": null,
+      "id": "opt_thief_cat_f_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_thief_cat_h_1",
+      "emphasis": null,
+      "id": "opt_thief_cat_h",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_thief_cat_h_2",
+      "emphasis": null,
+      "id": "opt_thief_cat_h_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_thief_cat_h_3",
+      "emphasis": null,
+      "id": "opt_thief_cat_h_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_thief_cat_h_4",
+      "emphasis": null,
+      "id": "opt_thief_cat_h_3",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_thief_cat_h_5",
+      "emphasis": null,
+      "id": "opt_thief_cat_h_4",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_thief_cat",
+      "emphasis": null,
+      "id": "opt_thief_cat_h_5",
+      "evtId": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_museum_blood",
+  "nodes": {
+    "$type": "System.Collections.Generic.List`1[[Node, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$type": "TextNode, Assembly-CSharp",
+        "ownerId": "player",
+        "nextNodeId": "int_museum_blood_stain_2",
+        "id": "int_museum_blood_stain_1",
+        "evtId": ""
+      },
+      {
+        "$type": "TextNode, Assembly-CSharp",
+        "ownerId": "player",
+        "nextNodeId": "__exit__",
+        "id": "int_museum_blood_stain_2",
+        "evtId": "evt_museum_blood_found"
+      }
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_artist_2",
+  "nodes": [
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "brn_artist_2_intro_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_2",
+            "type": 2
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "brn_artist_2_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_2",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_artist_2",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "brn_artist_2_intro_2",
+      "emphasis": null,
+      "id": "brn_artist_2_intro_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "brn_artist_2_intro_2",
+      "evtId": "evt_met_artist_2"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "brn_artist_2_1",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_a",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_b",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_artist_2_asked_about_artist_1",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_c",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_artist_2_asked_about_artist_1",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_d",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_e",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_f",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_g",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_artist_2_asked_about_artist_1",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_i",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_find_info_black_market",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_j",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_asked_about_black_market",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_artist_2_h",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_artist_2",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_a_1",
+      "emphasis": null,
+      "id": "opt_artist_2_a",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_b_1",
+      "emphasis": null,
+      "id": "opt_artist_2_b",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_c_1",
+      "emphasis": null,
+      "id": "opt_artist_2_c",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_d_1",
+      "emphasis": null,
+      "id": "opt_artist_2_d",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_e_1",
+      "emphasis": null,
+      "id": "opt_artist_2_e",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_f_1",
+      "emphasis": null,
+      "id": "opt_artist_2_f",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_g_1",
+      "emphasis": null,
+      "id": "opt_artist_2_g",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_i_1",
+      "emphasis": null,
+      "id": "opt_artist_2_i",
+      "evtId": "evt_asked_about_black_market"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_artist_2_j_1",
+      "emphasis": null,
+      "id": "opt_artist_2_j",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_artist_2_h",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_a_1",
+      "evtId": "evt_artist_2_asked_about_artist_1"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "opt_artist_2_b_2",
+      "emphasis": "angry",
+      "id": "opt_artist_2_b_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_b_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "opt_artist_2_c_2",
+      "emphasis": null,
+      "id": "opt_artist_2_c_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_c_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_d_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_e_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "opt_artist_2_f_2",
+      "emphasis": null,
+      "id": "opt_artist_2_f_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_f_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_g_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_i_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "cho_artist_2",
+      "emphasis": null,
+      "id": "opt_artist_2_j_1",
+      "evtId": "evt_black_market_unlocked"
+    }
+  ]
+}

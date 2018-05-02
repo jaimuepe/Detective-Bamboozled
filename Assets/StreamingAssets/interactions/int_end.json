@@ -1,0 +1,854 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_end",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_2",
+      "emphasis": null,
+      "id": "txt_end_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "txt_end_3",
+      "emphasis": null,
+      "id": "txt_end_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_who_did_it",
+      "emphasis": null,
+      "id": "txt_end_3",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_artist_1_did_it",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_1",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_artist_2_did_it",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_2",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_fan_did_it",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_fan",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_security_guard_did_it",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_security_guard",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_thief_did_it",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_thief_cat",
+            "type": 1
+          }
+        }
+      ],
+      "id": "cho_who_did_it",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_why_he_did_it",
+      "emphasis": null,
+      "id": "opt_end_artist_1_did_it",
+      "evtId": "evt_end_artist_1_did_it"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_why_he_did_it",
+      "emphasis": null,
+      "id": "opt_end_artist_2_did_it",
+      "evtId": "evt_end_artist_2_did_it"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_why_he_did_it",
+      "emphasis": null,
+      "id": "opt_end_fan_did_it",
+      "evtId": "evt_end_fan_did_it"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_why_he_did_it",
+      "emphasis": null,
+      "id": "opt_end_security_guard_did_it",
+      "evtId": "evt_end_security_guard_did_it"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_why_he_did_it",
+      "emphasis": null,
+      "id": "opt_end_thief_did_it",
+      "evtId": "evt_end_thief_cat_did_it"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_end_question_why_he_did_it",
+      "emphasis": null,
+      "id": "txt_end_question_why_he_did_it",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_question_why_he_did_it_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_question_why_he_did_it_2",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_question_why_he_did_it_3",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_question_why_he_did_it_4",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_end_artist_2_did_it",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_question_why_he_did_it_5",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_end_artist_1_did_it",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_question_why_he_did_it_6",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_end_question_why_he_did_it",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_question_why_he_did_it_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_by",
+      "emphasis": null,
+      "id": "opt_end_question_why_he_did_it_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_question_why_he_did_it_3",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_question_why_he_did_it_4",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_question_why_he_did_it_5",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_question_why_he_did_it_6",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_end_question_who_blackmailed_him",
+      "emphasis": null,
+      "id": "txt_end_question_blackmailed_by",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_artist_1_blackmailed_him",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_artist_2_blackmailed_him",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_2",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_fan_blackmailed_him",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_fan",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_security_guard_blackmailed_him",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_security_guard",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_thief_blackmailed_him",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_thief_cat",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_noone_blackmailed_him",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_end_question_who_blackmailed_him",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_because",
+      "emphasis": null,
+      "id": "opt_end_artist_1_blackmailed_him",
+      "evtId": "evt_end_artist_1_blackmailed_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_because",
+      "emphasis": null,
+      "id": "opt_end_artist_2_blackmailed_him",
+      "evtId": "evt_end_artist_2_blackmailed_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_because",
+      "emphasis": null,
+      "id": "opt_end_fan_blackmailed_him",
+      "evtId": "evt_end_fan_blackmailed_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_because",
+      "emphasis": null,
+      "id": "opt_end_security_guard_blackmailed_him",
+      "evtId": "evt_end_security_guard_blackmailed_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_because",
+      "emphasis": null,
+      "id": "opt_end_thief_blackmailed_him",
+      "evtId": "evt_end_thief_cat_blackmailed_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_blackmailed_because",
+      "emphasis": null,
+      "id": "opt_end_noone_blackmailed_him",
+      "evtId": "evt_end_artist_1_blackmailed_him"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_end_blackmailed_because",
+      "emphasis": null,
+      "id": "txt_end_question_blackmailed_because",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_blackmailed_sell_for_money",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_blackmailed_was_mad",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_2&evt_end_artist_2_blackmailed_him",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_blackmailed_spotlight",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_1&evt_end_artist_1_blackmailed_him",
+            "type": 1
+          }
+        }
+      ],
+      "id": "cho_end_blackmailed_because",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_blackmailed_sell_for_money",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_blackmailed_was_mad",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_sculpture_destination",
+      "emphasis": null,
+      "id": "opt_end_blackmailed_spotlight",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_end_sculpture_destination",
+      "emphasis": null,
+      "id": "txt_end_question_sculpture_destination",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_sculpture_was_sold",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_talked_about_sculpture",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_sculpture_was_destroyed",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_end_sculpture_destination",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_end_question_who_bought_it",
+      "emphasis": null,
+      "id": "opt_end_sculpture_was_sold",
+      "evtId": "evt_end_sculpture_was_sold"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "brn_end_check_everything_right",
+      "emphasis": null,
+      "id": "opt_end_sculpture_was_destroyed",
+      "evtId": "evt_end_sculpture_was_destroyed"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_end_sculpture_bought_by",
+      "emphasis": null,
+      "id": "txt_end_question_who_bought_it",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_bought_by_artist_2",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_2",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_bought_by_fan",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_fan",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_bought_by_security_guard",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_security_guard",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_bought_by_thief_cat",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_thief_cat",
+            "type": 1
+          }
+        }
+      ],
+      "id": "cho_end_sculpture_bought_by",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "brn_end_check_everything_right",
+      "emphasis": null,
+      "id": "opt_end_bought_by_artist_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "brn_end_check_everything_right",
+      "emphasis": null,
+      "id": "opt_end_bought_by_fan",
+      "evtId": "evt_end_fan_bought_it"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "brn_end_check_everything_right",
+      "emphasis": null,
+      "id": "opt_end_bought_by_security_guard",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "brn_end_check_everything_right",
+      "emphasis": null,
+      "id": "opt_end_bought_by_thief_cat",
+      "evtId": ""
+    },
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_everything_ok",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_end_thief_cat_did_it&evt_end_artist_1_blackmailed_him&evt_end_fan_bought_it",
+            "type": 1
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_doesnt_look_good",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_end_thief_cat_did_it&evt_end_artist_1_blackmailed_him&evt_end_fan_bought_it",
+            "type": 2
+          }
+        }
+      ],
+      "id": "brn_end_check_everything_right",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_1",
+      "emphasis": null,
+      "id": "opt_end_everything_ok",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_end_try_again",
+      "emphasis": null,
+      "id": "opt_end_doesnt_look_good",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_doesnt_look_good_repeat",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_end_doesnt_look_good_exit",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_end_try_again",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cus_end_clear_values",
+      "emphasis": null,
+      "id": "opt_end_doesnt_look_good_repeat",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cus_load_office",
+      "emphasis": null,
+      "id": "opt_end_doesnt_look_good_exit",
+      "evtId": ""
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "txt_end_3",
+      "id": "cus_end_clear_values",
+      "evtId": null
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "__exit__",
+      "id": "cus_load_office",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_2",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_3",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "opt_end_everything_ok_4",
+      "emphasis": "angry",
+      "id": "opt_end_everything_ok_3",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_end_everything_ok_5",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_4",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_6",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_5",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_7",
+      "emphasis": "angry",
+      "id": "opt_end_everything_ok_6",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_1",
+      "nextNodeId": "opt_end_everything_ok_8",
+      "emphasis": "angry",
+      "id": "opt_end_everything_ok_7",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "opt_end_everything_ok_9",
+      "emphasis": "angry",
+      "id": "opt_end_everything_ok_8",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_end_everything_ok_10",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_9",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_11",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_10",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_12",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_11",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_13",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_12",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_1",
+      "nextNodeId": "opt_end_everything_ok_14",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_13",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "opt_end_everything_ok_15",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_14",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_end_everything_ok_16",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_15",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_end_everything_ok_17",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_16",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_18",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_17",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_19",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_18",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fan",
+      "nextNodeId": "opt_end_everything_ok_20",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_19",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_end_everything_ok_21",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_20",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_end_everything_ok_22",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_21",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_end_everything_ok_23",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_22",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_1",
+      "nextNodeId": "opt_end_everything_ok_24",
+      "emphasis": "angry",
+      "id": "opt_end_everything_ok_23",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "artist_2",
+      "nextNodeId": "opt_end_everything_ok_25",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_24",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "thief_cat",
+      "nextNodeId": "cus_show_end_game_picture",
+      "emphasis": null,
+      "id": "opt_end_everything_ok_25",
+      "evtId": ""
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "cus_show_end_game_picture",
+      "id": "cus_show_end_game_picture",
+      "evtId": null
+    }
+  ]
+}

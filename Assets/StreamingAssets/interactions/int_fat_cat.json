@@ -1,0 +1,334 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_fat_cat",
+  "nodes": [
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_fat_cat_intro_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_intro",
+            "type": 2
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_fat_cat_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_intro",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_fat_cat",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "txt_fat_cat_intro_1",
+      "evtId": "evt_fat_cat_intro"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "txt_fat_cat_1",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_a",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_b",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_c",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_d",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_asked_about_robbery",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_e",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "opt_fat_cat_price_of_information&!evt_fat_cat_info_available",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_f",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_minigame_completed",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_g",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_info_available",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_h",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_info_available",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_i",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_fat_cat_info_available",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_fat_cat_j",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_fat_cat",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_a_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_a",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_b_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_b",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_c_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_c",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_d_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_d",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_e_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_e",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_f_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_f",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_g_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_g",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_h_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_h",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_i_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_i",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_fat_cat_j_1",
+      "emphasis": null,
+      "id": "opt_fat_cat_j",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_a_1",
+      "evtId": "evt_fat_cat_asked_about_robbery"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_b_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "opt_fat_cat_c_2",
+      "emphasis": null,
+      "id": "opt_fat_cat_c_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_c_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "opt_fat_cat_d_2",
+      "emphasis": null,
+      "id": "opt_fat_cat_d_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_d_2",
+      "evtId": "opt_fat_cat_price_of_information"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "opt_fat_cat_e_2",
+      "emphasis": null,
+      "id": "opt_fat_cat_e_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cus_sorry_about_that_text",
+      "emphasis": null,
+      "id": "opt_fat_cat_e_2",
+      "evtId": "evt_fat_cat_info_available"
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "cho_fat_cat",
+      "id": "cus_sorry_about_that_text",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_f_1",
+      "evtId": "evt_fat_cat_info_available"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_g_1",
+      "evtId": "evt_fat_cat_talked_about_sculpture"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_h_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "cho_fat_cat",
+      "emphasis": null,
+      "id": "opt_fat_cat_i_1",
+      "evtId": "evt_fat_cat_talked_about_seller"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "fat_cat",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_fat_cat_j_1",
+      "evtId": ""
+    }
+  ]
+}

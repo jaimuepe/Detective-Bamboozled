@@ -1,0 +1,1044 @@
+{
+  "items": [
+    {
+      "key": "txt_museum_owner_intro_0",
+      "value": "Good morning, detective Dogget. I have a problem and i need your help."
+    },
+    {
+      "key": "txt_museum_owner_intro_1",
+      "value": "What can I do for you?"
+    },
+    {
+      "key": "txt_museum_owner_intro_2",
+      "value": "I'm Gretta, owner of the city's museum. Last night someone sneaked into the museum, ..."
+    },
+    {
+      "key": "txt_museum_owner_intro_3",
+      "value": "... knocked out the security guard and stole one of our pieces of art!"
+    },
+    {
+      "key": "txt_museum_owner",
+      "value": "Any news?"
+    },
+    {
+      "key": "opt_museum_owner_a",
+      "value": "What did they steal?"
+    },
+    {
+      "key": "opt_museum_owner_b",
+      "value": "Tell me more about the artist."
+    },
+    {
+      "key": "opt_museum_owner_g",
+      "value": "Where can I find Mutt?"
+    },
+    {
+      "key": "opt_museum_owner_g_1",
+      "value": "This is his address."
+    },
+    {
+      "key": "opt_museum_owner_c",
+      "value": "How's the guard?"
+    },
+    {
+      "key": "opt_museum_owner_d",
+      "value": "I'd like to talk with the guard."
+    },
+    {
+      "key": "opt_museum_owner_a_1",
+      "value": "The piece is called \"The fountain\", made by R. Mutt."
+    },
+    {
+      "key": "opt_museum_owner_a_2",
+      "value": "It was one of the favourites! See, here..."
+    },
+    {
+      "key": "opt_museum_owner_b_1",
+      "value": "R. Mutt is a local artist known worldwide. He was showing his most famous piece in our museum."
+    },
+    {
+      "key": "opt_museum_owner_c_1",
+      "value": "Oh, he's fine. He has taken the day free, to get some rest. No serious injuries."
+    },
+    {
+      "key": "opt_museum_owner_d_1",
+      "value": "Of course! I'll tell you how to find his house."
+    },
+    {
+      "key": "opt_museum_owner_d_2",
+      "value": "His name is Baxter, by the way. I'll let him know you are going to visit him."
+    },
+    {
+      "key": "opt_museum_owner_e",
+      "value": "Ok, let's go to the crime scene."
+    },
+    {
+      "key": "opt_museum_owner_e_1",
+      "value": "Of course! I'm right behind you."
+    },
+    {
+      "key": "opt_museum_owner_solve_case_1",
+      "value": "I'm ready to solve the case."
+    },
+    {
+      "key": "opt_museum_owner_solve_case_2",
+      "value": "Already!?!? Wow, that was fast!"
+    },
+    {
+      "key": "opt_go_back",
+      "value": "(Keep looking for clues)"
+    },
+    {
+      "key": "opt_go_back_1",
+      "value": "Hmm, Let me check something."
+    },
+    {
+      "key": "opt_yes_end_game",
+      "value": "(Solve the mistery)"
+    },
+    {
+      "key": "opt_museum_owner_f",
+      "value": "I'm working on it."
+    },
+    {
+      "key": "opt_museum_owner_f_1",
+      "value": "Great! Come talk to me when you solve the case!!"
+    },
+    {
+      "key": "txt_office_door_talk_to_woman",
+      "value": "I should talk with this woman first, maybe she has a job for me."
+    },
+    {
+      "key": "int_museum_blood_stain_1",
+      "value": "(There's a blood stain on the floor...)"
+    },
+    {
+      "key": "txt_fan_garbage_not_interested",
+      "value": "(I have no reason to look in there.)"
+    },
+    {
+      "key": "txt_fan_garbage_black_market_1",
+      "value": "(There a shady pamphlet in there...)"
+    },
+    {
+      "key": "txt_fan_garbage_black_market_2",
+      "value": "(Apparently there's a clandestine market where they sell pieces of art.)"
+    },
+    {
+      "key": "txt_artist_1_wine_1",
+      "value": "No way! It's a Château Cheval Blanc 1947! ..."
+    },
+    {
+      "key": "txt_artist_1_wine_2",
+      "value": "Oh wait, it's a fake label. Actually it's Don Simon."
+    },
+    {
+      "key": "txt_artist_1_drapes_1",
+      "value": "Are those silk drapes? ..."
+    },
+    {
+      "key": "txt_artist_1_drapes_2",
+      "value": "... and of course not, just fancy shower curtains."
+    },
+    {
+      "key": "txt_artist_1_painting_1",
+      "value": "This guy really loves himself."
+    },
+    {
+      "key": "int_artist_1_tv_1",
+      "value": "This tv is huge! how many inches does it have?"
+    },
+    {
+      "key": "int_artist_1_tv_2",
+      "value": "... Wait a second... It's made out of cardboard."
+    },
+    {
+      "key": "txt_artist_1_plants_1",
+      "value": "And of course, plastic plants."
+    },
+    {
+      "key": "txt_artist_1_plants_2",
+      "value": "Even that sunset is fake. It's painted on the wall."
+    },
+    {
+      "key": "txt_artist_1_garbage_bin_1",
+      "value": "There's some scraps of papers in the bin from different magazines."
+    },
+    {
+      "key": "txt_artist_2_painting_1",
+      "value": "There's something under this cloth."
+    },
+    {
+      "key": "txt_artist_2_fridge_1",
+      "value": "Just a bunch of beer and some cheap treats."
+    },
+    {
+      "key": "txt_artist_2_coffe_mug_1",
+      "value": "Unsurprisingly there's beer in this mug."
+    },
+    {
+      "key": "txt_artist_2_beer_1",
+      "value": "An empty bottle of beer."
+    },
+    {
+      "key": "txt_artist_2_wall_crack_1",
+      "value": "This place is falling apart."
+    },
+    {
+      "key": "txt_security_guard_mug_1",
+      "value": "The mug says 'I love you dad'... Awww."
+    },
+    {
+      "key": "int_security_guard_fridge_1",
+      "value": "This fridge is rather empty."
+    },
+    {
+      "key": "int_security_guard_scissors_1",
+      "value": "Some kid's scissors and paper scraps."
+    },
+    {
+      "key": "int_museum_blood_stain_2",
+      "value": "Looks like someone cut himself with this... Uh... Tree-thing?"
+    },
+    {
+      "key": "txt_artist_1_intro_0",
+      "value": "Hi, I'm detective Dogg-"
+    },
+    {
+      "key": "txt_artist_1_intro_1",
+      "value": "Finally! I've been expecting you all day! One of my greatest pieces of art has been stolen..."
+    },
+    {
+      "key": "txt_artist_1_intro_2",
+      "value": "... and noone has done anything to find it yet!"
+    },
+    {
+      "key": "txt_artist_1_1",
+      "value": "Still nothing?"
+    },
+    {
+      "key": "opt_artist_1_a",
+      "value": "Any suspects?"
+    },
+    {
+      "key": "opt_artist_1_a_1",
+      "value": "Hmmm...! If i had to say a name, i'd say Rocco did it! Such a loser."
+    },
+    {
+      "key": "opt_artist_1_a_2",
+      "value": "He's jealous of my talent and is always bad-mouthing about my work!"
+    },
+    {
+      "key": "opt_artist_1_b",
+      "value": "Where can I find Rocco?"
+    },
+    {
+      "key": "opt_artist_1_b_1",
+      "value": "I wouldn't know, he moved very recently to the slums."
+    },
+    {
+      "key": "opt_artist_1_b_2",
+      "value": "That place is like a labyrinth, be warned."
+    },
+    {
+      "key": "opt_artist_1_b_3",
+      "value": "If i were you, I'd try following his disgusting smell to cheap tobbaco. Ugh!"
+    },
+    {
+      "key": "opt_artist_1_c",
+      "value": "I've found this scraps of paper in your garbage."
+    },
+    {
+      "key": "opt_artist_1_c_1",
+      "value": "Uh... Yes! yes, it's for the new piece I'm doing. A collage that represents..."
+    },
+    {
+      "key": "opt_artist_1_c_2",
+      "value": "... the fragility of the dog soul. It'll be a masterpiece!"
+    },
+    {
+      "key": "opt_artist_1_d",
+      "value": "I've met your fan, Spike."
+    },
+    {
+      "key": "opt_artist_1_d_1",
+      "value": "That guy is annoying for sure. He follows me everywhere so i had to request a restraining order."
+    },
+    {
+      "key": "opt_artist_1_e",
+      "value": "Do you think Spike might be the thief?"
+    },
+    {
+      "key": "opt_artist_1_e_1",
+      "value": "I wouldn't say no, he's pretty obsessed with me. Once he told me he had his house full of stuff about me. At first it was flattering, but it's gone further and now it's just creepy."
+    },
+    {
+      "key": "opt_artist_f",
+      "value": "Thanks for the info."
+    },
+    {
+      "key": "txt_security_guard_intro_1",
+      "value": "Hi, I'm detective Dogget. I'm gathering clues about the museum's robbery."
+    },
+    {
+      "key": "txt_security_guard_intro_2",
+      "value": "Hi sir. My name is Baxter. How can I help you?"
+    },
+    {
+      "key": "txt_security_guard_1",
+      "value": "Hello, detective. How's it going?"
+    },
+    {
+      "key": "opt_security_guard_a",
+      "value": "What happened at the museum?"
+    },
+    {
+      "key": "opt_security_guard_b",
+      "value": "Any possible suspect?"
+    },
+    {
+      "key": "opt_security_guard_c",
+      "value": "I see you don't get along with cats."
+    },
+    {
+      "key": "opt_security_guard_d",
+      "value": "How are you feeling?"
+    },
+    {
+      "key": "opt_security_guard_e",
+      "value": "I thought It'd be worse because of the blood we found."
+    },
+    {
+      "key": "opt_security_guard_f",
+      "value": "Do you have kids?"
+    },
+    {
+      "key": "opt_security_guard_g",
+      "value": "Thanks, I'll get back to work."
+    },
+    {
+      "key": "opt_security_guard_a_1",
+      "value": "I don't remember much. I was patrolling, minding my own business, when suddenly..."
+    },
+    {
+      "key": "opt_security_guard_a_2",
+      "value": "... BAM! someone hit me in the head. I didn't hear it coming."
+    },
+    {
+      "key": "opt_security_guard_b_1",
+      "value": "I'm sure as heck it was one of those heckin' cats! Always sneaking around."
+    },
+    {
+      "key": "opt_security_guard_c_1",
+      "value": "No sir. Bunch of numbskulls, that's what they are! If it was my call they'll..."
+    },
+    {
+      "key": "opt_security_guard_c_2",
+      "value": "... have to leave the city, we don't need them at all."
+    },
+    {
+      "key": "opt_security_guard_d_1",
+      "value": "Better, thanks for asking. Luckily it was just a small contusion."
+    },
+    {
+      "key": "opt_security_guard_d_2",
+      "value": "My wife always told me it was a dangerous job... thank dog I'm retiring soon!"
+    },
+    {
+      "key": "opt_security_guard_e_1",
+      "value": "Blood? I don't know who it belonged to, but sure as heck it wasn't mine. I only have this bump."
+    },
+    {
+      "key": "opt_security_guard_f_1",
+      "value": "Seven, sir! Seven lovely pupperinos, if I may say."
+    },
+    {
+      "key": "txt_fan_intro_1",
+      "value": "Hi there, I'm detective Dogget. I'm gathering info about the robbery at the museum."
+    },
+    {
+      "key": "txt_fan_intro_2",
+      "value": "Oh hi Dogget!!1! Sure, go ahead! I'm Spike btw. AMA!!"
+    },
+    {
+      "key": "txt_fan_1",
+      "value": "Hi again, kid."
+    },
+    {
+      "key": "opt_fan_a",
+      "value": "Do you know anything about the stolen piece?"
+    },
+    {
+      "key": "opt_fan_b",
+      "value": "Can you tell me something else about the piece?"
+    },
+    {
+      "key": "opt_fan_c",
+      "value": "Do you know Mutt?"
+    },
+    {
+      "key": "opt_fan_d",
+      "value": "Why does he have a restraining order?"
+    },
+    {
+      "key": "opt_fan_g",
+      "value": "Do you live around here?"
+    },
+    {
+      "key": "opt_fan_e",
+      "value": "I heard his art is not selling well right now."
+    },
+    {
+      "key": "opt_fan_f",
+      "value": "Thanks for the info."
+    },
+    {
+      "key": "opt_fan_a_1",
+      "value": "Ohhh yeah, that's some real art! Like, 100%-real-no-fake art LOL!"
+    },
+    {
+      "key": "opt_fan_b_1",
+      "value": "It's deffo one of my favs! That Mutt's such a wonderful artist."
+    },
+    {
+      "key": "opt_fan_b_2",
+      "value": "Wow!! much talent, very meaningful!"
+    },
+    {
+      "key": "opt_fan_c_1",
+      "value": "OFC!! I've met him several times IRL. I'm like, his biggest fan. Not literally, because I'm tiny LOL!"
+    },
+    {
+      "key": "opt_fan_c_2",
+      "value": "But you get the idea. He even has a restraining order against me, so there's that!"
+    },
+    {
+      "key": "opt_fan_d_1",
+      "value": "IDK, I guess I can be a little annoying sometimes. I'm kinda obssessed with him TBH."
+    },
+    {
+      "key": "opt_fan_d_2",
+      "value": "In a good way I mean! I'm not crazy! hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha"
+    },
+    {
+      "key": "opt_fan_d_3",
+      "value": "(This guy looks suspicious. I should snoop around his place.)"
+    },
+    {
+      "key": "opt_fan_e_1",
+      "value": "Well yeah, maybe. But that's just kids today right? My generation is just sooooo wrongggg!"
+    },
+    {
+      "key": "opt_fan_e_2",
+      "value": "I should've been born in the 80's, that was the real deal!"
+    },
+    {
+      "key": "opt_fan_g_1",
+      "value": "Yeah, in these blocks behind me. Nice building hah? My parents are stupidly loaded, so... "
+    },
+    {
+      "key": "opt_fan_g_2",
+      "value": "... I can afford basically anything."
+    },
+    {
+      "key": "txt_fat_cat_intro_1",
+      "value": "Well well well... We don't see a lot of doggos around here."
+    },
+    {
+      "key": "txt_fat_cat_1",
+      "value": "What do you want?"
+    },
+    {
+      "key": "opt_fat_cat_a",
+      "value": "I'm investigating a missing piece from the museum."
+    },
+    {
+      "key": "opt_fat_cat_b",
+      "value": "Do you know something about R. Mutt?"
+    },
+    {
+      "key": "opt_fat_cat_c",
+      "value": "Is this place even legal?"
+    },
+    {
+      "key": "opt_fat_cat_d",
+      "value": "Do you know anything about the robbery?"
+    },
+    {
+      "key": "opt_fat_cat_e",
+      "value": "I'm not going to steal anything for you."
+    },
+    {
+      "key": "opt_fat_cat_f",
+      "value": "I made this."
+    },
+    {
+      "key": "opt_fat_cat_g",
+      "value": "Did you sell it?"
+    },
+    {
+      "key": "opt_fat_cat_h",
+      "value": "Any info about the buyer?"
+    },
+    {
+      "key": "opt_fat_cat_i",
+      "value": "Any info about the seller?"
+    },
+    {
+      "key": "opt_fat_cat_j",
+      "value": "We'll talk another time."
+    },
+    {
+      "key": "opt_fat_cat_a_1",
+      "value": "Hah! Then probably you've come to the right place."
+    },
+    {
+      "key": "opt_fat_cat_b_1",
+      "value": "Besides being a mediocre artist who got lucky once, not much."
+    },
+    {
+      "key": "opt_fat_cat_c_1",
+      "value": "Oh boy, you're so innocent. Police isn't even brave enough to step into the suburbs..."
+    },
+    {
+      "key": "opt_fat_cat_c_2",
+      "value": "... so we have our own rules. If you don't like it go back to your beautiful streets."
+    },
+    {
+      "key": "opt_fat_cat_d_1",
+      "value": "Maybe I do, maybe I don't. But as you'll understand..."
+    },
+    {
+      "key": "opt_fat_cat_d_2",
+      "value": "... I'm not going to give you any information just because. This is a business, after all."
+    },
+    {
+      "key": "opt_fat_cat_e_1",
+      "value": "Who said anything about stealing? The kind of scum that usually comes here..."
+    },
+    {
+      "key": "opt_fat_cat_e_2",
+      "value": "... will pay for anything that looks remotely  artsy. Bring me something I can sell and then we'll talk."
+    },
+    {
+      "key": "opt_fat_cat_e_3",
+      "value": "Oh hi! We run out of time so we couldn't implement this minigame. Sorry about that!"
+    },
+    {
+      "key": "opt_fat_cat_f_1",
+      "value": "My god, that is crappy. Sadly I know a couple of guys that would pay for this, so we have a deal. What do you want to ask about?"
+    },
+    {
+      "key": "opt_fat_cat_g_1",
+      "value": "Yes. Something like that wouldn't last long in here."
+    },
+    {
+      "key": "opt_fat_cat_h_1",
+      "value": "Ugh. Such an annoying kid. But he had the money, so... Business is business."
+    },
+    {
+      "key": "opt_fat_cat_i_1",
+      "value": "Hadn't seen him around for a while. I thought he was reformed, but I guess people doesn't change."
+    },
+    {
+      "key": "opt_fat_cat_j_1",
+      "value": "Sure we'll do."
+    },
+    {
+      "key": "brn_artist_2_intro_1",
+      "value": "Hi, I'm detective Dogget. I'm investigating the robbery of some work of art from the museum."
+    },
+    {
+      "key": "brn_artist_2_intro_2",
+      "value": "Oh my! I'm Rocco. What happened?"
+    },
+    {
+      "key": "brn_artist_2_1",
+      "value": "Hi again, Rocco."
+    },
+    {
+      "key": "opt_artist_2_a",
+      "value": "They've stolen 'The fountain', a piece by R. Mutt."
+    },
+    {
+      "key": "opt_artist_2_b",
+      "value": "What's your problem with him?"
+    },
+    {
+      "key": "opt_artist_2_c",
+      "value": "Do you know who could've done it?"
+    },
+    {
+      "key": "opt_artist_2_d",
+      "value": "Why did you move here?"
+    },
+    {
+      "key": "opt_artist_2_e",
+      "value": "Looks like you're going through hard times."
+    },
+    {
+      "key": "opt_artist_2_f",
+      "value": "How's work?"
+    },
+    {
+      "key": "opt_artist_2_g",
+      "value": "Where were you last night?"
+    },
+    {
+      "key": "opt_artist_2_i",
+      "value": "Have you heard of the black market?"
+    },
+    {
+      "key": "opt_artist_2_i_1",
+      "value": "Yes, of course. A disgusting place for artists like me."
+    },
+    {
+      "key": "opt_artist_2_j",
+      "value": "Do you know where it is?"
+    },
+    {
+      "key": "opt_artist_2_j_1",
+      "value": "Yes. Living in this neighborhood has its perks, after all."
+    },
+    {
+      "key": "opt_artist_2_h",
+      "value": "Thanks, I'll be going now."
+    },
+    {
+      "key": "opt_artist_2_a_1",
+      "value": "Wow! I'm glad then! He's a sorry excuse for an artist, and a shame for the rest of us!"
+    },
+    {
+      "key": "opt_artist_2_b_1",
+      "value": "HE COPIED ME! MY sculpture should've been in that museum instead of that piece of garbage!"
+    },
+    {
+      "key": "opt_artist_2_b_2",
+      "value": "But look at him now, noone likes his art! His total failure is just a matter of time."
+    },
+    {
+      "key": "opt_artist_2_c_1",
+      "value": "I mean, that man surely has earnt some enemies during his lucky, albeit short, career."
+    },
+    {
+      "key": "opt_artist_2_c_2",
+      "value": "There's also this weird kid that follows him around."
+    },
+    {
+      "key": "opt_artist_2_d_1",
+      "value": "I was sick of those snob artists. I wanted to live like truly artists do."
+    },
+    {
+      "key": "opt_artist_2_e_1",
+      "value": "Nonsense! Are you trying to mock me or what? Art demands sacrifice. You wouldn't understand."
+    },
+    {
+      "key": "opt_artist_2_f_1",
+      "value": "I'm working on something great now. I'm not going to show you anything of course..."
+    },
+    {
+      "key": "opt_artist_2_f_2",
+      "value": "I don't want to see it happening like last time! But i assure you, it's going to be something extraordinary!"
+    },
+    {
+      "key": "opt_artist_2_g_1",
+      "value": "Well in here, of course! Working hard, like real artists do."
+    },
+    {
+      "key": "txt_thief_cat_intro_1",
+      "value": "... What? What do you want?"
+    },
+    {
+      "key": "txt_thief_cat_intro_2",
+      "value": "I'm detective Dogget. I'm researching a robbery that happened last night."
+    },
+    {
+      "key": "txt_thief_cat_intro_3",
+      "value": "So lemme get this straight.. I have to be involved somehow just because I'm a cat, that's it?"
+    },
+    {
+      "key": "txt_thief_cat_intro_4",
+      "value": "I didn't mean it that way. I'm just..."
+    },
+    {
+      "key": "txt_thief_cat_intro_5",
+      "value": "Get lost if you wanna stay out of trouble."
+    },
+    {
+      "key": "txt_thief_cat_1",
+      "value": "... You again?"
+    },
+    {
+      "key": "opt_thief_cat_c",
+      "value": "I've heard about you."
+    },
+    {
+      "key": "opt_thief_cat_d",
+      "value": "I know what you do for a living."
+    },
+    {
+      "key": "opt_thief_cat_e",
+      "value": "That wound looks ugly."
+    },
+    {
+      "key": "opt_thief_cat_f",
+      "value": "Where were you last night?"
+    },
+    {
+      "key": "opt_thief_cat_g",
+      "value": "I have to go."
+    },
+    {
+      "key": "opt_thief_cat_c_1",
+      "value": "So what? You want an autograph?"
+    },
+    {
+      "key": "opt_thief_cat_d_1",
+      "value": "What i USED to do, OK? I'm not involved in stuff like that anymore."
+    },
+    {
+      "key": "opt_thief_cat_d_2",
+      "value": "I went to prison and learnt my lesson. Now I just want to take care of my family."
+    },
+    {
+      "key": "opt_thief_cat_e_1",
+      "value": "This? It's nothing. Just a stupid domestic accident. None of your business, ya know?"
+    },
+    {
+      "key": "opt_thief_cat_f_1",
+      "value": "I was home, with my nephews, watching some stupid cartoons."
+    },
+    {
+      "key": "opt_thief_cat_h",
+      "value": "The guy from the black market said you did it."
+    },
+    {
+      "key": "opt_thief_cat_h_1",
+      "value": "He what?! Goddamit, I knew I couldn't trust that guy..."
+    },
+    {
+      "key": "opt_thief_cat_h_2",
+      "value": "I didn't do it for me. Someone forced me to do it. Sent me letters..."
+    },
+    {
+      "key": "opt_thief_cat_h_3",
+      "value": "sayind they'd hurt my family otherwise. What would've you done?"
+    },
+    {
+      "key": "opt_thief_cat_h_4",
+      "value": "look, if you don't trust me here's proof..."
+    },
+    {
+      "key": "opt_thief_cat_h_5",
+      "value": "(some threatening letters made out of scraps of paper)."
+    },
+    {
+      "key": "txt_goodest_doggo_1",
+      "value": "Hi!! Canine help you?!?! HAHA! What do you want?? Newspaper, cigarettes, cucumbers, treats...?! "
+    },
+    {
+      "key": "opt_goodest_doggo_a",
+      "value": "Sorry, I don't have any money."
+    },
+    {
+      "key": "opt_goodest_doggo_b",
+      "value": "What brands of cigarettes do you sell?"
+    },
+    {
+      "key": "opt_goodest_doggo_a_1",
+      "value": "That's ok!! Here, it's on the house!! *Pets him*"
+    },
+    {
+      "key": "opt_goodest_doggo_a_2",
+      "value": "Awwww."
+    },
+    {
+      "key": "opt_goodest_doggo_b_1",
+      "value": "Here, look!!"
+    },
+    {
+      "key": "txt_end_1",
+      "value": "I've finally cracked the case."
+    },
+    {
+      "key": "txt_end_2",
+      "value": "I'm on tenderhooks!! Come on detective!!"
+    },
+    {
+      "key": "txt_end_3",
+      "value": "(The sculpture was stolen by...)"
+    },
+    {
+      "key": "opt_end_artist_1_did_it",
+      "value": "(Mutt, the artist itself.)"
+    },
+    {
+      "key": "opt_end_artist_2_did_it",
+      "value": "(Rocco, the rival artist.)"
+    },
+    {
+      "key": "opt_end_fan_did_it",
+      "value": "(Spike, the annoying fan.)"
+    },
+    {
+      "key": "opt_end_security_guard_did_it",
+      "value": "(Baxter, the security guard.)"
+    },
+    {
+      "key": "opt_end_thief_did_it",
+      "value": "(Bronson, former crook.)"
+    },
+    {
+      "key": "txt_end_question_why_he_did_it",
+      "value": "(He did it because...)"
+    },
+    {
+      "key": "opt_end_question_why_he_did_it_1",
+      "value": "(Needed money.)"
+    },
+    {
+      "key": "opt_end_question_why_he_did_it_2",
+      "value": "(Was blackmailed.)"
+    },
+    {
+      "key": "opt_end_question_why_he_did_it_3",
+      "value": "(Hated the piece.)"
+    },
+    {
+      "key": "opt_end_question_why_he_did_it_4",
+      "value": "(Was mad at him.)"
+    },
+    {
+      "key": "opt_end_question_why_he_did_it_5",
+      "value": "(Wanted to be in the spotlight.)"
+    },
+    {
+      "key": "opt_end_question_why_he_did_it_6",
+      "value": "(He was a bad boy.)"
+    },
+    {
+      "key": "txt_end_question_blackmailed_by",
+      "value": "(He was blackmailed by...)"
+    },
+    {
+      "key": "opt_end_artist_1_blackmailed_him",
+      "value": "(Mutt, the artist itself.)"
+    },
+    {
+      "key": "opt_end_artist_2_blackmailed_him",
+      "value": "(Rocco, the rival artist.)"
+    },
+    {
+      "key": "opt_end_fan_blackmailed_him",
+      "value": "(Spike, the annoying fan.)"
+    },
+    {
+      "key": "opt_end_security_guard_blackmailed_him",
+      "value": "(Baxter, the security guard.)"
+    },
+    {
+      "key": "opt_end_thief_blackmailed_him",
+      "value": "(Bronson, former crook.)"
+    },
+    {
+      "key": "opt_end_noone_blackmailed_him",
+      "value": "(Noone, my mistake.)"
+    },
+    {
+      "key": "txt_end_question_blackmailed_because",
+      "value": "(Who did it because...)"
+    },
+    {
+      "key": "opt_end_blackmailed_sell_for_money",
+      "value": "(Needed the money.)"
+    },
+    {
+      "key": "opt_end_blackmailed_was_mad",
+      "value": "(Was mad at Mutt.)"
+    },
+    {
+      "key": "opt_end_blackmailed_spotlight",
+      "value": "(Wanted to be in the spotlight.)"
+    },
+    {
+      "key": "txt_end_question_sculpture_destination",
+      "value": "(And the sculpture...)"
+    },
+    {
+      "key": "opt_end_sculpture_was_sold",
+      "value": "(Was sold on the black market.)"
+    },
+    {
+      "key": "opt_end_sculpture_was_destroyed",
+      "value": "(Was destroyed.)"
+    },
+    {
+      "key": "txt_end_question_who_bought_it",
+      "value": "(... and bought by...)"
+    },
+    {
+      "key": "opt_end_bought_by_artist_2",
+      "value": "(Rocco, the rival artist.)"
+    },
+    {
+      "key": "opt_end_bought_by_fan",
+      "value": "(Spike, the annoying fan.)"
+    },
+    {
+      "key": "opt_end_bought_by_security_guard",
+      "value": "(Baxter, the security guard.)"
+    },
+    {
+      "key": "opt_end_bought_by_thief_cat",
+      "value": "(Bronson, former crook.)"
+    },
+    {
+      "key": "opt_end_doesnt_look_good",
+      "value": "(That doesn't look good...)"
+    },
+    {
+      "key": "opt_end_doesnt_look_good_repeat",
+      "value": "(Try again)"
+    },
+    {
+      "key": "opt_end_doesnt_look_good_exit",
+      "value": "(Exit)"
+    },
+    {
+      "key": "opt_end_everything_ok",
+      "value": "(Yeah, that's it!)"
+    },
+    {
+      "key": "opt_end_everything_ok_1",
+      "value": "So..."
+    },
+    {
+      "key": "opt_end_everything_ok_2",
+      "value": "The piece was stolen by Bronson, former crook."
+    },
+    {
+      "key": "opt_end_everything_ok_3",
+      "value": "I knew it!! It's always these awful cats!!"
+    },
+    {
+      "key": "opt_end_everything_ok_4",
+      "value": "..."
+    },
+    {
+      "key": "opt_end_everything_ok_5",
+      "value": "But! He did it because he was blackmailed by..."
+    },
+    {
+      "key": "opt_end_everything_ok_6",
+      "value": "Mutt himself!!"
+    },
+    {
+      "key": "opt_end_everything_ok_7",
+      "value": "What! That is preposterous! Bunch of nonsense!"
+    },
+    {
+      "key": "opt_end_everything_ok_8",
+      "value": "Wait, what!? This weakling was the one behind everything!?"
+    },
+    {
+      "key": "opt_end_everything_ok_9",
+      "value": "But wait, I don't get it! Why would he do that?"
+    },
+    {
+      "key": "opt_end_everything_ok_10",
+      "value": "That sculpture made him very famous but that was it. Once he had tasted the fame and renown..."
+    },
+    {
+      "key": "opt_end_everything_ok_11",
+      "value": "... he couldn't just get back to being a mediocre artist, so he faked everything..."
+    },
+    {
+      "key": "opt_end_everything_ok_12",
+      "value": "...  trying to get in the spotlight again."
+    },
+    {
+      "key": "opt_end_everything_ok_13",
+      "value": "..."
+    },
+    {
+      "key": "opt_end_everything_ok_14",
+      "value": "HAHAHA! This day couldn't get better."
+    },
+    {
+      "key": "opt_end_everything_ok_15",
+      "value": "Wow, what a pickle! This is even better than my soap operas."
+    },
+    {
+      "key": "opt_end_everything_ok_16",
+      "value": "And what happened to the sculpture?"
+    },
+    {
+      "key": "opt_end_everything_ok_17",
+      "value": "The statue was sold in the black market. Mutt needed money to sustain his expensive lifestyle."
+    },
+    {
+      "key": "opt_end_everything_ok_18",
+      "value": "It was then bought by Spike, the slightly annoying fan."
+    },
+    {
+      "key": "opt_end_everything_ok_19",
+      "value": "Daaaamnn boyyy you are good!"
+    },
+    {
+      "key": "opt_end_everything_ok_20",
+      "value": "Wow!! You are a very good detective indeed!! We couldn't have done this without you!"
+    },
+    {
+      "key": "opt_end_everything_ok_21",
+      "value": "I'm going to call the police right away!!"
+    },
+    {
+      "key": "opt_end_everything_ok_22",
+      "value": "You have anything to say, Mutt?"
+    },
+    {
+      "key": "opt_end_everything_ok_23",
+      "value": "You got me this time, detective. But I'll be back! And I'll take what is mine!"
+    },
+    {
+      "key": "opt_end_everything_ok_24",
+      "value": "Oh god, I'm so glad to be here right now. Suck it, you copycat! No offense..."
+    },
+    {
+      "key": "opt_end_everything_ok_25",
+      "value": "... Non taken."
+    },
+    {
+      "key": "evt_black_market_unlocked",
+      "value": "Black market location unlocked"
+    },
+    {
+      "key": "evt_artist_1_house_unlocked",
+      "value": "Mutt's house location unlocked"
+    },
+    {
+      "key": "evt_artist_2_house_unlocked",
+      "value": "Rocco's house location unlocked"
+    },
+    {
+      "key": "evt_security_guard_house_unlocked",
+      "value": "Baxter's house location unlocked"
+    },
+    {
+      "key": "evt_artist_1_clue_tobacco_smell",
+      "value": "Track Rocco's smell in the crossroads"
+    },
+    {
+      "key": "evt_find_info_black_market",
+      "value": "Find someone who knows where the black market is"
+    },
+    {
+      "key": "txt_detective_think_smells",
+      "value": "Mutt told me to follow the smell of cheap tobacco..."
+    },
+    {
+      "key": "txt_detective_think_smells_2",
+      "value": "... now, how does cheap tobacco smell like?"
+    }
+  ]
+}

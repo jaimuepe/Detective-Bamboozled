@@ -1,0 +1,1 @@
+{"$type":"InteractionData, Assembly-CSharp","id":"int_maze_exit","nodes":[{"$type":"CustomNode, Assembly-CSharp","nextNodeId":"__exit__","id":"cus_maze_minigame","evtId":null}]}

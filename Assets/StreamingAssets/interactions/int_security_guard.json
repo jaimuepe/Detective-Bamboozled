@@ -1,0 +1,253 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_security_guard",
+  "nodes": [
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_security_guard_intro_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_security_guard",
+            "type": 2
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_security_guard_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_security_guard",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_security_guard_intro",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_security_guard_intro_2",
+      "emphasis": null,
+      "id": "txt_security_guard_intro_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "txt_security_guard_intro_2",
+      "evtId": "evt_met_security_guard"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "txt_security_guard_1",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_d",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_e",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_asked_guard_if_hes_ok&evt_museum_blood_found",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_b",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_c",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_security_guards_asked_about_possible_suspects",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_a",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_f",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_security_guard_checked_mug",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_security_guard_g",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_security_guard",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_security_guard_a_1",
+      "emphasis": null,
+      "id": "opt_security_guard_a",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_security_guard_b_1",
+      "emphasis": null,
+      "id": "opt_security_guard_b",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_security_guard_c_1",
+      "emphasis": null,
+      "id": "opt_security_guard_c",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_security_guard_d_1",
+      "emphasis": null,
+      "id": "opt_security_guard_d",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_security_guard_e_1",
+      "emphasis": null,
+      "id": "opt_security_guard_e",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_security_guard_f_1",
+      "emphasis": null,
+      "id": "opt_security_guard_f",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_security_guard_g",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "opt_security_guard_a_2",
+      "emphasis": null,
+      "id": "opt_security_guard_a_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "opt_security_guard_a_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "opt_security_guard_b_1",
+      "evtId": "evt_security_guards_asked_about_possible_suspects"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "opt_security_guard_c_2",
+      "emphasis": null,
+      "id": "opt_security_guard_c_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "opt_security_guard_c_2",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "opt_security_guard_d_2",
+      "emphasis": null,
+      "id": "opt_security_guard_d_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "opt_security_guard_d_2",
+      "evtId": "evt_asked_guard_if_hes_ok"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "opt_security_guard_e_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "security_guard",
+      "nextNodeId": "cho_security_guard",
+      "emphasis": null,
+      "id": "opt_security_guard_f_1",
+      "evtId": ""
+    }
+  ]
+}

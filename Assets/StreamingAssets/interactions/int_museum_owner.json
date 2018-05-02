@@ -1,0 +1,371 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_museum_owner",
+  "nodes": [
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_museum_owner_intro_0",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_intro_done",
+            "type": 2
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "txt_museum_owner",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_intro_done",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_museum_owner_intro",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "txt_museum_owner_intro_1",
+      "emphasis": null,
+      "id": "txt_museum_owner_intro_0",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "txt_museum_owner_intro_2",
+      "emphasis": null,
+      "id": "txt_museum_owner_intro_1",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "txt_museum_owner_intro_3",
+      "emphasis": null,
+      "id": "txt_museum_owner_intro_2",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": null,
+      "id": "txt_museum_owner",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": "angry",
+      "id": "txt_museum_owner_intro_3",
+      "evtId": "evt_museum_owner_intro_done"
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_a",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_b",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_asked_about_piece",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_g",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_asked_about_artist&evt_museum_visited",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_c",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_d",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_asked_about_guard&evt_museum_visited",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_solve_case_1",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_met_artist_1",
+            "type": 1
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "brn_museum_owner_conv_end",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_asked_about_piece",
+            "type": 1
+          }
+        }
+      ],
+      "id": "cho_museum_owner",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_a_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_a",
+      "evtId": "evt_museum_owner_asked_about_piece"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_b_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_b",
+      "evtId": "evt_museum_owner_asked_about_artist"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_g_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_g",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": null,
+      "id": "opt_museum_owner_g_1",
+      "evtId": "evt_artist_1_house_unlocked"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_c_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_c",
+      "evtId": "evt_museum_owner_asked_about_guard"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_d_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_d",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_museum_owner_a_2",
+      "emphasis": null,
+      "id": "opt_museum_owner_a_1",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cus_detailed_generic_image",
+      "emphasis": null,
+      "id": "opt_museum_owner_a_2",
+      "evtId": null
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "cho_museum_owner",
+      "id": "cus_detailed_generic_image",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": null,
+      "id": "opt_museum_owner_b_1",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": null,
+      "id": "opt_museum_owner_c_1",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "opt_museum_owner_d_2",
+      "emphasis": null,
+      "id": "opt_museum_owner_d_1",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": null,
+      "id": "opt_museum_owner_d_2",
+      "evtId": "evt_security_guard_house_unlocked"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_e_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_e",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_museum_owner_e_1",
+      "evtId": "evt_museum_owner_office_end"
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_f_1",
+      "emphasis": null,
+      "id": "opt_museum_owner_f",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "opt_museum_owner_f_1",
+      "evtId": null
+    },
+    {
+      "$type": "BranchNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_e",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_office_end",
+            "type": 2
+          }
+        },
+        {
+          "$type": "BranchNodeOption, Assembly-CSharp",
+          "nodeId": "opt_museum_owner_f",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "evt_museum_owner_office_end",
+            "type": 1
+          }
+        }
+      ],
+      "id": "brn_museum_owner_conv_end",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_museum_owner_solve_case_2",
+      "emphasis": null,
+      "id": "opt_museum_owner_solve_case_1",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "museum_owner",
+      "nextNodeId": "cho_end_game",
+      "emphasis": null,
+      "id": "opt_museum_owner_solve_case_2",
+      "evtId": ""
+    },
+    {
+      "$type": "ChoiceNode, Assembly-CSharp",
+      "options": [
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_go_back",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": null,
+            "type": 0
+          }
+        },
+        {
+          "$type": "ChoiceNodeOption, Assembly-CSharp",
+          "nodeId": "opt_yes_end_game",
+          "condition": {
+            "$type": "Condition, Assembly-CSharp",
+            "eventId": "",
+            "type": 0
+          }
+        }
+      ],
+      "id": "cho_end_game",
+      "evtId": null
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cus_start_end_game",
+      "emphasis": null,
+      "id": "opt_yes_end_game",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "opt_go_back_1",
+      "emphasis": null,
+      "id": "opt_go_back",
+      "evtId": ""
+    },
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "cho_museum_owner",
+      "emphasis": null,
+      "id": "opt_go_back_1",
+      "evtId": ""
+    },
+    {
+      "$type": "CustomNode, Assembly-CSharp",
+      "nextNodeId": "__exit__",
+      "id": "cus_start_end_game",
+      "evtId": null
+    }
+  ]
+}

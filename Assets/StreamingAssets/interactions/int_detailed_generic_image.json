@@ -1,0 +1,1 @@
+{"$type":"InteractionData, Assembly-CSharp","id":"int_detailed_generic_image","nodes":{"$type":"System.Collections.Generic.List`1[[Node, Assembly-CSharp]], mscorlib","$values":[{"$type":"CustomNode, Assembly-CSharp","nextNodeId":"__exit__","id":"cus_detailed_generic_image","evtId":null}]}}

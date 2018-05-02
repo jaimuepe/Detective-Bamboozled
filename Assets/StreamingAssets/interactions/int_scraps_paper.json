@@ -1,0 +1,1 @@
+{"$type":"InteractionData, Assembly-CSharp","id":"int_scraps_paper","nodes":[{"$type":"TextNode, Assembly-CSharp","ownerId":"player","nextNodeId":"__exit__","emphasis":null,"id":"txt_scraps_paper","evtId":"evt_artist_1_scraps_found"}]}

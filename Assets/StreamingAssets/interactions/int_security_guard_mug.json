@@ -1,0 +1,14 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_security_guard_mug",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_security_guard_mug_1",
+      "evtId": "evt_security_guard_checked_mug"
+    }
+  ]
+}

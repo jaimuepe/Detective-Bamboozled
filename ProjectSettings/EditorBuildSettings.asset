@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/main_menu.unity
+    guid: c0809ed8d5a2d824fac797a0f3c268e4
+  - enabled: 1
+    path: Assets/Scenes/office.unity
+    guid: 72c01f2bb3cfd2645829c30e594b37c8
+  - enabled: 1
+    path: Assets/Scenes/museum.unity
+    guid: fb06c4e55ab86d44b8e649e1652e9f1d
+  - enabled: 1
+    path: Assets/Scenes/guard_house.unity
+    guid: c8a7ec66c408f664c9e544b5e85a2a0c
+  - enabled: 1
+    path: Assets/Scenes/blackmarket.unity
+    guid: a57f5da8451e36e4e8a43cd41a6334ee
+  - enabled: 1
+    path: Assets/Scenes/suburbs.unity
+    guid: 6c0effdb99caec94f8f7a7e843f7b955
+  - enabled: 1
+    path: Assets/Scenes/crossroad_start.unity
+    guid: 327288f43ea949445a25e76f3d6fa3a2
+  - enabled: 1
+    path: Assets/Scenes/crossroad_1.unity
+    guid: 12f8dd1b56bdfb6499b93f9b8367cb55
+  - enabled: 1
+    path: Assets/Scenes/crossroad_2.unity
+    guid: 0eb117644021a8b4d80bb6d4989cae71
+  - enabled: 1
+    path: Assets/Scenes/crossroad_3.unity
+    guid: 4a08f5c952cb28648ab04626a8327625
+  - enabled: 1
+    path: Assets/Scenes/crossroad_4.unity
+    guid: 699e79c9e0ee880498773e2c23dc256b
+  - enabled: 1
+    path: Assets/Scenes/crossroad_5.unity
+    guid: b048dbf42aa21f241963838c30bbf024
+  - enabled: 1
+    path: Assets/Scenes/crossroad_6.unity
+    guid: 153deac1157d40647abbff7a957ba161
+  - enabled: 1
+    path: Assets/Scenes/crossroad_7.unity
+    guid: ca7ad7ad9ae3dfc4e8cacae2b22d30e9
+  - enabled: 1
+    path: Assets/Scenes/crossroad_final.unity
+    guid: 9efe64d4dad451e4696553c63a3510af
+  - enabled: 1
+    path: Assets/Scenes/artist2_house.unity
+    guid: 503bd1e9d1c94404b9c2b29e25102d9e
+  - enabled: 1
+    path: Assets/Scenes/artist1_house.unity
+    guid: 4b541bd859e16714a835cabb97f3d1f3
+  - enabled: 1
+    path: Assets/Scenes/office_end.unity
+    guid: c62e99c97a35aba40ac7aa25ce96e73f

@@ -1,0 +1,14 @@
+{
+  "$type": "InteractionData, Assembly-CSharp",
+  "id": "int_artist_2_wall_crack",
+  "nodes": [
+    {
+      "$type": "TextNode, Assembly-CSharp",
+      "ownerId": "player",
+      "nextNodeId": "__exit__",
+      "emphasis": null,
+      "id": "txt_artist_2_wall_crack_1",
+      "evtId": ""
+    }
+  ]
+}

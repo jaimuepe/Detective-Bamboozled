@@ -1,0 +1,1 @@
+{"$type":"InteractionData, Assembly-CSharp","id":"int_artist_1_garbage_bin","nodes":[{"$type":"TextNode, Assembly-CSharp","ownerId":"player","nextNodeId":"__exit__","emphasis":null,"id":"txt_artist_1_garbage_bin_1","evtId":"evt_artist_1_scraps_found"}]}
